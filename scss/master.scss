@@ -1,0 +1,14 @@
+
+
+// Here you import your scss files
+// Remebmer that your SCSS file has to start with _ like this _buttons.scss or _colors.scss
+// Use this command below to import new scss files
+// @import 'base.scss'; – File name = _base.scss
+
+// Add your SCSS files here below:
+
+@import 'colors.scss';
+
+@import 'buttons.scss';
+
+@import 'base.scss';
