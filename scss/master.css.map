@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAEA,IAAI;EACF,gBAAgB,ECAL,OAAO;EDClB,OAAO,EAAE,GAAG",
-"sources": ["../scss/_base.scss","../scss/_colors.scss"],
+"sources": ["_base.scss","_colors.scss"],
 "names": [],
 "file": "master.css"
 }
