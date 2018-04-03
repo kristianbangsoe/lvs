@@ -7,4 +7,4 @@
 
 <!-- The page content ends here -->
 
-<?php include 'footer.php'; ?>  
+<?php include 'footer.php'; ?>
