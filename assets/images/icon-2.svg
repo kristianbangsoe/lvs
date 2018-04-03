@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2563 -6827 139 138">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #00783d;
+      }
+
+      .cls-4 {
+        opacity: 0.09;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-1" width="138" height="138" transform="translate(328 2120)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_891" data-name="Group 891" transform="translate(2236 -8947)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-2">
+      <g id="_002-chat" data-name="002-chat" transform="translate(328 2120)">
+        <g id="Group_492" data-name="Group 492">
+          <g id="Group_491" data-name="Group 491">
+            <path id="Path_166" data-name="Path 166" class="cls-3" d="M118.946,0H19.054A11.254,11.254,0,0,0,7.813,11.241V57.756A11.254,11.254,0,0,0,19.054,69h4.09L34.195,83.82a6.1,6.1,0,0,0,4.914,2.5,6.321,6.321,0,0,0,1.951-.312,6.105,6.105,0,0,0,4.277-5.8L45.492,69h12.4A16.407,16.407,0,0,0,63,88.1a31.434,31.434,0,0,0-21.192,29.431v15.072H25.66a2.7,2.7,0,0,0,0,5.393h89.15a2.7,2.7,0,0,0,0-5.393h-8.578V117.535A31.486,31.486,0,0,0,83.771,87.683,16.433,16.433,0,1,0,61.447,63.6H42.833a2.7,2.7,0,0,0-2.7,2.659l-.191,13.87a.792.792,0,0,1-1.427.463L26.659,64.69A2.7,2.7,0,0,0,24.5,63.6H19.054a5.855,5.855,0,0,1-5.849-5.849V11.241a5.855,5.855,0,0,1,5.849-5.849h99.892a5.855,5.855,0,0,1,5.849,5.849V57.756a5.855,5.855,0,0,1-5.849,5.849h-10.3a2.7,2.7,0,0,0,0,5.393h10.3a11.254,11.254,0,0,0,11.241-11.241V11.241A11.254,11.254,0,0,0,118.946,0ZM100.84,117.535v15.072H91.951v-14.12a2.7,2.7,0,1,0-5.393,0v14.12h-24.6v-14.12a2.7,2.7,0,1,0-5.393,0v14.12H47.2V117.535c0-14.3,12.032-25.927,26.82-25.927S100.84,103.238,100.84,117.535ZM73.128,64.115a11.05,11.05,0,1,1-11.05,11.05A11.062,11.062,0,0,1,73.128,64.115Z"/>
+          </g>
+        </g>
+        <g id="Group_494" data-name="Group 494">
+          <g id="Group_493" data-name="Group 493">
+            <circle id="Ellipse_76" data-name="Ellipse 76" class="cls-3" cx="2.696" cy="2.696" r="2.696" transform="translate(123.683 132.608)"/>
+          </g>
+        </g>
+        <g id="Group_496" data-name="Group 496">
+          <g id="Group_495" data-name="Group 495">
+            <circle id="Ellipse_77" data-name="Ellipse 77" class="cls-3" cx="2.696" cy="2.696" r="2.696" transform="translate(43.35 30.585)"/>
+          </g>
+        </g>
+        <g id="Group_498" data-name="Group 498">
+          <g id="Group_497" data-name="Group 497">
+            <circle id="Ellipse_78" data-name="Ellipse 78" class="cls-3" cx="2.696" cy="2.696" r="2.696" transform="translate(59.08 30.585)"/>
+          </g>
+        </g>
+        <g id="Group_500" data-name="Group 500">
+          <g id="Group_499" data-name="Group 499">
+            <circle id="Ellipse_79" data-name="Ellipse 79" class="cls-3" cx="2.696" cy="2.696" r="2.696" transform="translate(73.153 30.585)"/>
+          </g>
+        </g>
+        <g id="Group_502" data-name="Group 502">
+          <g id="Group_501" data-name="Group 501">
+            <circle id="Ellipse_80" data-name="Ellipse 80" class="cls-3" cx="2.696" cy="2.696" r="2.696" transform="translate(88.552 30.585)"/>
+          </g>
+        </g>
+        <g id="Group_504" data-name="Group 504">
+          <g id="Group_503" data-name="Group 503">
+            <circle id="Ellipse_81" data-name="Ellipse 81" class="cls-3" cx="2.696" cy="2.696" r="2.696" transform="translate(94.424 63.489)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle id="Ellipse_105" data-name="Ellipse 105" class="cls-4" cx="69" cy="69" r="69" transform="translate(327 2120)"/>
+  </g>
+</svg>
