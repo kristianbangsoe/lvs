@@ -11,11 +11,12 @@
     <header>
 
 
-      <nav class="navbar navbar-expand-lg navbar-light niggerfaggot">
-<div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light headerbackgroundcolor">
+<div class="containertest">
 
-
-        <a class="navbar-brand" href="#">Navbar</a>
+<a href="frontpage.php">
+<img class="logo" src="assets/images/logo.svg" alt="" height="240" width="290">
+</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,10 +53,7 @@
 
           </ul>
 
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+      <button class="buttonheader" type="button" name="button">Find et V&aelig;rested</button>
 
         </div>
         </div>
