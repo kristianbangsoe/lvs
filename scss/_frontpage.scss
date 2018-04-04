@@ -1,0 +1,8 @@
+.colorgreentext {color: $dark-green;}
+.boldtext {font-weight: bold;}
+#section-1 {height: 610px; color:white; background-image: url('../assets/images/header.jpg')}
+#section-1 .container-fluid {padding-top: 8%; width: 80%; padding-right: 45%;}
+#section-1 form {background-color: $dark-green; padding-top: 1%; border-radius: 5px; display: flex;   flex-direction: row;
+  flex-wrap: wrap;}
+
+#categories {height:810px; background-color: white;}
