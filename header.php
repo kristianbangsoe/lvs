@@ -33,23 +33,42 @@
 
             <li class="nav-item dropdown active">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Events
+                Projekter
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Event1</a>
-                <a class="dropdown-item" href="#">Event1</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Event1</a>
+                <a class="dropdown-item" href="#">Projekter1</a>
+                <a class="dropdown-item" href="#">Projekter2</a>
+                <a class="dropdown-item" href="#">Projekter3</a>
               </div>
             </li>
 
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Publikationer</a>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Aktiviteter
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Aktiviteter1</a>
+                <a class="dropdown-item" href="#">Aktiviteter2</a>
+                <a class="dropdown-item" href="#">Aktiviteter3</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Udgivelser
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Udgivelser1</a>
+                <a class="dropdown-item" href="#">Udgivelser2</a>
+                <a class="dropdown-item" href="#">Udgivelser3</a>
+              </div>
             </li>
 
             <li class="nav-item active">
               <a class="nav-link" href="#">Kontakt</a>
             </li>
+
+
 
           </ul>
 
