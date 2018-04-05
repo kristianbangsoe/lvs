@@ -1,48 +1,82 @@
 
+<div id="carouselExampleSlidesOnly" class="carousel slide sponsors mt-5 py-3" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container d-flex jc-between">
+      <img class="" src="assets/images/brand-1.png" alt="First slide">
+      <img class="" src="assets/images/brand-2.png" alt="First slide">
+      <img class="" src="assets/images/brand-3.png" alt="First slide">
+      <img class="" src="assets/images/brand-4.png" alt="First slide">
+      <img class="" src="assets/images/brand-5.png" alt="First slide">
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container d-flex jc-between">
+      <img class="" src="assets/images/brand-1.png" alt="First slide">
+      <img class="" src="assets/images/brand-2.png" alt="First slide">
+      <img class="" src="assets/images/brand-3.png" alt="First slide">
+      <img class="" src="assets/images/brand-4.png" alt="First slide">
+      <img class="" src="assets/images/brand-5.png" alt="First slide">
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container d-flex jc-between">
+      <img class="" src="assets/images/brand-1.png" alt="First slide">
+      <img class="" src="assets/images/brand-2.png" alt="First slide">
+      <img class="" src="assets/images/brand-3.png" alt="First slide">
+      <img class="" src="assets/images/brand-4.png" alt="First slide">
+      <img class="" src="assets/images/brand-5.png" alt="First slide">
+            </div>
+    </div>
+  </div>
+</div>
+
 <footer>
-  <div class="container py-5 fd-row d-flex jc-between" >
-    <div class="col-3">
-      <img id="logo-white" class="pb-4" src="assets/images/logo-white.svg" alt="">
-      <p>Danmarksgade 6A, 1.<br>7000 Fredericia</p>
-      <p>
-        Tlf. 7592 4000<br>
-        Lvsinfo@lavs.dk<br>
-        EAN-nr. 579 800 647 6909<br>
-        Cvr.nr. 29055009
-      </p>
-    </div>
+  <div class="container py-5" >
+    <div class="row fd-row d-flex jc-between">
+      <div class="col-3">
+        <img id="logo-white" class="pb-4" src="assets/images/logo-white.svg" alt="">
+        <p>Danmarksgade 6A, 1.<br>7000 Fredericia</p>
+        <p>
+          Tlf. 7592 4000<br>
+          Lvsinfo@lavs.dk<br>
+          EAN-nr. 579 800 647 6909<br>
+          Cvr.nr. 29055009
+        </p>
+      </div>
 
-    <div class="col-3">
-      <h2 class="h5">Om landsforeningen</h2>
-      <ul>
-        <li><a href="#">Om LVS</a></li>
-        <li><a href="#">Væresteder</a></li>
-        <li><a href="#">Presse</a></li>
-        <li><a href="#">Job hos os</a></li>
-        <li><a href="#">Kontakt os</a></li>
-      </ul>
-    </div>
+      <div class="col-3">
+        <h2 class="h5">Om landsforeningen</h2>
+        <ul>
+          <li><a href="#">Om LVS</a></li>
+          <li><a href="#">Væresteder</a></li>
+          <li><a href="#">Presse</a></li>
+          <li><a href="#">Job hos os</a></li>
+          <li><a href="#">Kontakt os</a></li>
+        </ul>
+      </div>
 
-    <div class="col-3">
-      <h2 class="h5">Viden</h2>
-      <ul>
-        <li><a href="#">Om LVS</a></li>
-        <li><a href="#">Væresteder</a></li>
-        <li><a href="#">Presse</a></li>
-        <li><a href="#">Job hos os</a></li>
-        <li><a href="#">Kontakt os</a></li>
-      </ul>
-    </div>
+      <div class="col-3">
+        <h2 class="h5">Viden</h2>
+        <ul>
+          <li><a href="#">Om LVS</a></li>
+          <li><a href="#">Væresteder</a></li>
+          <li><a href="#">Presse</a></li>
+          <li><a href="#">Job hos os</a></li>
+          <li><a href="#">Kontakt os</a></li>
+        </ul>
+      </div>
 
-    <div class="">
-      <img id="mobil-pay" src="assets/images/mobil-pay.svg" alt="">
-      <ul class="social-links mt-5">
-        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-    </div>
+      <div class="">
+        <img id="mobil-pay" src="assets/images/mobil-pay.svg" alt="">
+        <ul class="social-links mt-5">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
 
+    </div>
   </div>
 </footer>
 </body>

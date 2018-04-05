@@ -49,3 +49,42 @@ a, button, select{
     transform: scale(1.05);
   }
 }
+
+.back a, .social-bar a {
+    color: white;
+    background-color: #00783d;
+    width: 45px;
+    height: 45px;
+    border-radius: 38px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: -22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    padding: 1px;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    transform: translate3d( 0, 0, -2px);
+    &:hover{
+      -webkit-font-smoothing: antialiased;
+      transform: translate3d( 0, 0, -2px);
+      -moz-transform: scale(1.04);
+      -webkit-transform: scale(1.04);
+      font-size: 100%;
+      position: relative;
+      color: white;
+      box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.21);
+    }
+}
+
+.back {
+  transform: translate(-36px, 100%);
+}
+
+.social-bar a {
+  margin-right: 15px;
+}
