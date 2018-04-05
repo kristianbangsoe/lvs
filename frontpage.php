@@ -48,7 +48,7 @@
               </select>
             </div>
           </div>
-          <button class="rounded-btn btn-white" type="button" name="button">SØG</button>
+           <button class="rounded-btn btn-white" type="button" name="button">SØG</button>
         </form>
         <a class="hint mt-1 wow fadeIn delay-3" href="#">Hvad er et værested?</a>
       </div>
