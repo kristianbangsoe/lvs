@@ -6,10 +6,10 @@
 <section id="section-1" style="background-image: url(assets/images/header.jpg);">
   <div class="container">
     <div class="row">
-      <div class="col-7 wow fadeInLeft">
-        <h1 class="pb-3">Over <span class="boldtext colorgreentext"> 130 væresteder</span> dedikeret til de socialt udsatte i Danmark</h1>
-        <p>Landsforeningen af VæreSteder samler alle væresteder i danmark, til socialt udsatte der mangler hjælp. Du vil kunne finde kontakt information, event kalendre og meget mere for de forskellige væresteder. </p>
-        <form class="" action="index.html" method="post">
+      <div class="col-7">
+        <h1 class="pb-3 wow fadeIn delay-1">Over <span class="boldtext colorgreentext"> 130 væresteder</span> dedikeret til de socialt udsatte i Danmark</h1>
+        <p class="wow fadeIn delay-2">Landsforeningen af VæreSteder samler alle væresteder i danmark, til socialt udsatte der mangler hjælp. Du vil kunne finde kontakt information, event kalendre og meget mere for de forskellige væresteder. </p>
+        <form class="wow fadeIn delay-3" action="index.html" method="post">
           <div class="form-group">
             <div class="form-item">
               <label for="center-area">Vælg region</label>
@@ -50,15 +50,70 @@
           </div>
           <button class="rounded-btn btn-white" type="button" name="button">SØG</button>
         </form>
+        <a class="hint mt-1 wow fadeIn delay-3" href="#">Hvad er et værested?</a>
       </div>
     </div>
   </div>
 </section>
 
 <section id="categories" class= "col-md-12">
-<div class="container">
-  <h1 class="boldtext">Hvad Landsforeningen <span class="colorgreentext">tilbyder</span></h1>
-<p> </p>
+<div class="container py-5">
+  <div class="row">
+    <div class="col-6 m-auto text-center">
+      <h1 class="boldtext h2 mt-4">Hvad Landsforeningen <span class="colorgreentext">tilbyder</span></h1>
+      <p>I Danmark er socialt udsatte stadivæk et velment fenomen som der skal gøres noget ved. Her kan du se en oversigt ov er hvad</p>
+    </div>
+  </div>
+  <div class="row text-center mt-5">
+    <div class="col-md-4">
+      <figure class="p-4">
+        <img class="mb-4" src="assets/images/icon-1.svg" alt="">
+        <h2>hello</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">LÆS MERE</a>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="p-4">
+        <img class="mb-4" src="assets/images/icon-2.svg" alt="">
+        <h2>hello</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">LÆS MERE</a>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="p-4">
+        <img class="mb-4" src="assets/images/icon-3.svg" alt="">
+        <h2>hello</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">LÆS MERE</a>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="p-4">
+        <img class="mb-4" src="assets/images/icon-4.svg" alt="">
+        <h2>hello</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">LÆS MERE</a>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="p-4">
+        <img class="mb-4" src="assets/images/icon-5.svg" alt="">
+        <h2>hello</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">LÆS MERE</a>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="p-4">
+        <img class="mb-4" src="assets/images/icon-6.svg" alt="">
+        <h2>hello</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">LÆS MERE</a>
+      </figure>
+    </div>
+  </div>
 </div>
 </section>
 
