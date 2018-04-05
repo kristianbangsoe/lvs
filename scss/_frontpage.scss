@@ -1,8 +1,66 @@
-.colorgreentext {color: $dark-green;}
-.boldtext {font-weight: bold;}
-#section-1 {height: 610px; color:white; background-image: url('../assets/images/header.jpg')}
-#section-1 .container-fluid {padding-top: 8%; width: 80%; padding-right: 45%;}
-#section-1 form {background-color: $dark-green; padding-top: 1%; border-radius: 5px; display: flex;   flex-direction: row;
-  flex-wrap: wrap;}
+
+section#section-1 {
+    display: flex;
+    align-items: center;
+    height: 610px;
+    color: white;
+    background-size: contain;
+    background-color: #040404;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-name: handFadeUp;
+    background-repeat: no-repeat;
+    animation-timing-function: ease-out;
+    background-position:125px 500px;
+    animation-fill-mode: forwards;
+}
+
+/* The animation code */
+@keyframes handFadeUp {
+    0% {background-position:125px 500px;}
+    100% {background-position: 125px 0;}
+}
+
+#section-1 form {
+  background-color: $dark-green;
+  padding-top: 1%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+  .form-group{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+    .form-item {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 3;
+      margin-right: 18px;
+      &::after {
+          font-family: "FontAwesome";
+          content: "\f0dd";
+          font-weight: 900;
+          position: relative;
+          color: black;
+          text-align: right;
+          margin-top: -38px;
+          margin-right: 15px;
+          pointer-events: none;
+      }
+      select {
+          height: 46px;
+          padding-left: 10px;
+          -webkit-appearance: none;
+          -webkit-border-radius: 0px;
+      }
+    }
+  }
+}
 
 #categories {height:810px; background-color: white;}

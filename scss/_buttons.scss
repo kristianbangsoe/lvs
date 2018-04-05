@@ -5,3 +5,47 @@ $button-green: #00783D;
 //Blue Button
 $button-blue: #006031;
 //Blue Button end
+
+a, button, select{
+  transition: 0.3s;
+  outline:0!important;
+  &:focus{
+    outline: 0!important;
+  }
+  &:active {
+  outline: 0!important;
+  border: none;
+  }
+}
+
+
+.btn-green {
+    background-color: $dark-green; /* Green */
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.btn-white{
+  background-color: white;
+  border: none;
+  color: $dark-green; /* Green */
+  height: 78px;
+  width: 78px;
+  margin-right: -58px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 122%;
+  border-radius: 50px;
+  box-shadow: -3px 5px 20px #00000040;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
