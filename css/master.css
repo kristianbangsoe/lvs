@@ -222,6 +222,12 @@ section#section-1 {
     background-position: 125px 500px; }
   100% {
     background-position: 125px 0; } }
+/* Slider */
+.carousel-indicators {
+  background-color: #00783D;
+  color: #00783D;
+  background: #00783D; }
+
 #profile .cover {
   background-size: cover; }
   #profile .cover .overlay-dark {
