@@ -25,13 +25,13 @@ $(document).ready(function () {
   $(".gallery a").on('click', function() {
     $('.overlay-dark-o').addClass("image-show");
     $(this).addClass("show");
-    $('html').toggleClass("overflow-hidden");
+    $('html').addClass("overflow-hidden");
   });
 
   $(".overlay-dark-o").on('click', function() {
     $(this).removeClass("image-show");
     $('.gallery a').removeClass("show");
-    $('html').toggleClass("overflow-hidden");
+    $('html').removeClass("overflow-hidden");
   });
 
   $('.carousel').carousel({
