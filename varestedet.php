@@ -10,7 +10,7 @@
         <div class="user row">
           <div class="col-9 d-flex ai-center">
             <div class="back mr-3">
-              <a href="#"><i class="fas fa-chevron-left"></i></a>
+              <a href="#"><i class="fas fa-arrow-left"></i></a>
             </div>
             <div class="user-img">
               <img src="assets/images/paraplyen.png" alt="">
@@ -28,28 +28,30 @@
   </section>
   <div class="container">
     <div class="row">
-      <aside class="col-3 pt-5">
-        <div class="col">
-          <h2 class="mt-5 h5 boldtext mb-3">Kontakt Information</h2>
-          <address class="[object Object]">
-            <p><i class="far fa-clock"></i>Alle dage fr kl. 18.00 - 20.00</p>
-            <p><i class="fas fa-tag"></i>Kategori: Café</p>
-            <p><a href="tel:24 33 99 00"><i class="fa-flip-horizontal fas fa-phone"></i>Tlf. 24 33 99 00</a></p>
-            <p><i class="fas fa-building"></i>CVR Nr. 22 33 88 11 65</p>
-            <p><a target="_blank" href="https://maps.google.com?saddr=Current+Location&daddr=Asylgade 21, Odense C, 5000"><i class="fas fa-map-marker"></i>Asylgade 21, Odense C, 5000</a></p>
-          </address>
-        </div>
-        <hr class="row bt"></hr>
-        <div class="col host d-flex pb-3">
-          <img src="assets/images/jan-jensen.jpg" alt="">
-          <div class="ml-3">
-            <p class="boldtext mb-0">Formand</p>
-            <p>Jan Christiansen</p>
+      <aside class="col-3">
+        <div class="row pt-5 bl br bb bb-rounded">
+          <div class="">
+            <div class="col">
+              <h2 class="sub-title mt-5 boldtext mb-3">Kontakt Information</h2>
+              <address class="[object Object]">
+                <p><i class="far fa-clock"></i>Alle dage fr kl. 18.00 - 20.00</p>
+                <p><i class="fas fa-tag"></i>Kategori: Café</p>
+                <p><a href="tel:24 33 99 00"><i class="fa-flip-horizontal fas fa-phone"></i>Tlf. 24 33 99 00</a></p>
+                <p><i class="fas fa-building"></i>CVR Nr. 22 33 88 11 65</p>
+                <p><a target="_blank" href="https://maps.google.com?saddr=Current+Location&daddr=Asylgade 21, Odense C, 5000"><i class="fas fa-map-marker"></i>Asylgade 21, Odense C, 5000</a></p>
+              </address>
+            </div>
           </div>
-        </div>
-        <hr class="row bt my-0"></hr>
-        <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.6865959960946!2d10.38555285140277!3d55.398373680364145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdff8e6292643%3A0x4d7057bb8091bdb!2sAsylgade+21%2C+5000+Odense!5e0!3m2!1sda!2sdk!4v1522966020338" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="bt col py-3 host d-flex">
+            <img src="assets/images/jan-jensen.jpg" alt="">
+            <div class="ml-3">
+              <p class="boldtext mb-0">Formand</p>
+              <p>Jan Christiansen</p>
+            </div>
+          </div>
+          <div class="w-100 d-flex">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.6865959960946!2d10.38555285140277!3d55.398373680364145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdff8e6292643%3A0x4d7057bb8091bdb!2sAsylgade+21%2C+5000+Odense!5e0!3m2!1sda!2sdk!4v1522966020338" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
       </aside>
       <div class="description-container col-8 py-5 pl-5">
@@ -78,11 +80,50 @@
             <div class="read-more">LÆS MERE</div>
           </div>
         </div>
-        <div class="col gallery d-flex mt-4">
-          <a><img src="assets/images/food-1.jpg" alt=""></a>
-          <a><img src="assets/images/food-2.jpg" alt=""></a>
-          <a><img src="assets/images/food-3.jpg" alt=""></a>
-          <a><img src="assets/images/food-4.jpg" alt=""></a>
+
+        <div class="col gallery mt-4">
+          <h3 class="sub-title bb mb-3 pb-2">Galleri</h3>
+          <div class="d-flex">
+            <a><img src="assets/images/food-1.jpg" alt=""></a>
+            <a><img src="assets/images/food-2.jpg" alt=""></a>
+            <a><img src="assets/images/food-3.jpg" alt=""></a>
+            <a><img src="assets/images/food-4.jpg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="col events mt-4">
+          <h3 class="sub-title bb mb-3 pb-2">Kommende events</h3>
+          <div class="d-flex row">
+
+            <figure class="event-item col-6">
+              <a href="#">
+                <div class="event-image" style="background-image: url('assets/images/event-1.jpg');">
+                  <div class="date-dm"><div class="date-day">20</div>MAR</div>
+                  <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                </div>
+                <div class="event-info">
+                  <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
+                  <p class="colorgreentext boldtext">12 deltagere, 5 interesseret</p>
+                  <p class="location">Placering: Paraplyen, Odense C</p>
+                </div>
+              </a>
+            </figure>
+
+            <figure class="event-item col-6">
+              <a href="#">
+                <div class="event-image" style="background-image: url('assets/images/event-1.jpg');">
+                  <div class="date-dm"><div class="date-day">20</div>MAR</div>
+                  <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                </div>
+                <div class="event-info">
+                  <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
+                  <p class="colorgreentext boldtext">12 deltagere, 5 interesseret</p>
+                  <p class="location">Placering: Paraplyen, Odense C</p>
+                </div>
+              </a>
+            </figure>
+
+          </div>
         </div>
       </div>
     </div>
