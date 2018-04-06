@@ -119,12 +119,92 @@
 
 <section id="events">
 
+  <section id="categories" class= "col-md-12">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-6 m-auto text-center">
+        <h1 class="boldtext h2 mt-4">Hvad Landsforeningen <span class="colorgreentext">tilbyder</span></h1>
+        <p>I Danmark er socialt udsatte stadivæk et velment fenomen som der skal gøres noget ved. Her kan du se en oversigt ov er hvad</p>
+      </div>
+    </div>
+    <div class="row text-center mt-5">
+      <div class="col-md-4">
+        <figure class="p-4">
+          <img class="mb-4" src="assets/images/icon-1.svg" alt="">
+          <h2>hello</h2>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">LÆS MERE</a>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="p-4">
+          <img class="mb-4" src="assets/images/icon-2.svg" alt="">
+          <h2>hello</h2>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">LÆS MERE</a>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure class="p-4">
+          <img class="mb-4" src="assets/images/icon-3.svg" alt="">
+          <h2>hello</h2>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">LÆS MERE</a>
+        </figure>
+      </div>
+
 </section>
 
-<section id="reviews">
+<hr>
 
+<section id="reviews" class= "col-md-12 py-5">
+    <div class="row">
+      <div class="col-6 m-auto text-center">
+        <img src="assets/images/heart.svg" alt="" height="40" width="40">
+        <h1 class="boldtext h2 mt-4">Udtalelse fra<span class="colorgreentext"> vores talspersoner</span></h1>
+        <p>I Danmark er socialt udsatte stadivæk et velment fenomen som der skal gøres noget ved. Her kan du se en oversigt ov er hvad</p>
+      </div>
+      </div>
+          <div class="row">
+  <div id="carouselExampleIndicators" class="carousel slide m-auto" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img class="d-block w-100" src="assets/images/slider1.png" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/slider2.png" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/slider1.png" alt="">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 </section>
 
+<hr>
+
+
+<section>
+  <div class="col-6 m-auto text-center">
+    <img src="assets/images/heart.svg" alt="" height="40" width="40">
+    <h1 class="boldtext h2 mt-4"><span class="colorgreentext">Bliv medlem af LVS</span></h1>
+    <p>I Danmark er socialt udsatte stadivæk et velment fenomen som der skal gøres noget ved. Her kan du se en oversigt ov er hvad</p>
+  </div>
+</section>
 <!-- And so on -->
 
 <?php include 'footer.php'; ?>

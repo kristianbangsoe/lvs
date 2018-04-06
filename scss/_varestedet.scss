@@ -1,0 +1,118 @@
+#profile{
+  .cover {
+      background-size: cover;
+      .overlay-dark{
+        height: 350px;
+        background-color: #00000057;
+        display: flex;
+        align-items: flex-end;
+        .container{
+          .user {
+              position: relative;
+              z-index: 1;
+              display: flex;
+              align-items: flex-end;
+              .user-img{
+                border-radius: 100%;
+                width: 150px;
+                height: 150px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                margin-bottom: -75px;
+                align-items: center;
+                border: 1px solid #e8e3e3;
+                img{
+                  width: 70%;
+                }
+              }
+              h1{
+                color: white;
+                font-size: 30px;
+              }
+          }
+        }
+      }
+  }
+
+  aside{
+    .host{
+      img {
+          display: inline-block;
+          height: 65px;
+          border-radius: 60px;
+          border: 1px solid #e4e4e4;
+      }
+    }
+    address{
+      p {
+        svg {
+            margin-right: 11px;
+        }
+        a{
+          color: black;
+        }
+      }
+    }
+  }
+  .description {
+      overflow: hidden;
+      max-height: 300px;
+      transition: 1s;
+  }
+  .description.open {
+      max-height: 1000px;
+  }
+  .read-more{
+    color: $dark-green;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .gallery{
+    a{
+      margin-right:15px;
+    }
+    a:last-child{
+      margin-right: 0px;
+    }
+    img{
+      width: 100%;
+      border-radius: 20px;
+    }
+    a.show {
+        position: fixed;
+        z-index: 2222;
+        text-align: center;
+        width: 600px;
+        height: 400px;
+        left: 50%;
+        bottom: 0;
+        top: 50vh;
+        transform: translate(-50%, -43%);
+        right: 0;
+        transition: 0.5s;
+    }
+  }
+}
+
+.overflow-hidden{
+  overflow-y: hidden;
+}
+.overlay-dark-o{
+  transition: 0.4s;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5803921568627451);
+}
+.overlay-dark-o.image-show{
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 21;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5803921568627451);
+}
