@@ -98,10 +98,15 @@
             <figure class="event-item col-6">
               <a href="#">
                 <div class="event-image" style="background-image: url('assets/images/event-1.jpg');">
-                  <div class="date-dm"><div class="date-day">20</div>MAR</div>
-                  <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                  <div class="overlay p-3">
+                    <div class="date-dm text-right"><div class="date-day">20</div>MAR</div>
+                    <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                  </div>
                 </div>
-                <div class="event-info">
+                <div class="event-info px-3 py-4">
+                  <div class="btn-green-round mr-3">
+                    <i class="read-more-btn fas fa-arrow-right"></i>
+                  </div>
                   <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
                   <p class="colorgreentext boldtext">12 deltagere, 5 interesseret</p>
                   <p class="location">Placering: Paraplyen, Odense C</p>
@@ -112,10 +117,15 @@
             <figure class="event-item col-6">
               <a href="#">
                 <div class="event-image" style="background-image: url('assets/images/event-1.jpg');">
-                  <div class="date-dm"><div class="date-day">20</div>MAR</div>
-                  <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                  <div class="overlay p-3">
+                    <div class="date-dm text-right"><div class="date-day">20</div>MAR</div>
+                    <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                  </div>
                 </div>
-                <div class="event-info">
+                <div class="event-info px-3 py-4">
+                  <div class="btn-green-round mr-3">
+                    <i class="read-more-btn fas fa-arrow-right"></i>
+                  </div>
                   <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
                   <p class="colorgreentext boldtext">12 deltagere, 5 interesseret</p>
                   <p class="location">Placering: Paraplyen, Odense C</p>
