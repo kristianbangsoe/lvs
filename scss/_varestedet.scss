@@ -55,22 +55,16 @@
       }
     }
   }
-  .description {
-      overflow: hidden;
-      max-height: 300px;
-      transition: 1s;
-  }
-  .description.open {
-      max-height: 1000px;
-  }
-  .read-more{
-    color: $dark-green;
-    cursor: pointer;
-    font-weight: bold;
-  }
+
+
   .gallery{
     a{
       margin-right:15px;
+      border-radius: 20px;
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.21);
+      }
     }
     a:last-child{
       margin-right: 0px;
@@ -92,8 +86,41 @@
         right: 0;
         transition: 0.5s;
     }
+
   }
 }
+
+
+  .description {
+      overflow: hidden;
+      max-height: 300px;
+      transition: 1s;
+  }
+  .gradiant-read.active{
+    position: relative;
+    margin-top: -67px;
+    height: 75px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,ffffff+100&0+0,0.61+32,1+99 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.02) 1%, rgba(255,255,255,0.61) 32%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.02) 1%,rgba(255,255,255,0.61) 32%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.02) 1%,rgba(255,255,255,0.61) 32%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
+  .gradiant-read{
+    height: 0px;
+  }
+  .description.open {
+      max-height: 1000px;
+  }
+  .read-more {
+    color: $dark-green;
+      cursor: pointer;
+      margin-top: 11px;
+      padding-top: 11px;
+      border-top: 1px dashed #e8e8e8;
+  }
+
+
 
 .overflow-hidden{
   overflow-y: hidden;
@@ -115,4 +142,12 @@
   z-index: 21;
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5803921568627451);
+}
+
+.close-thumb{
+  width: 20px!important;
+  position: absolute;
+  margin-left: -34px;
+  margin-top: 12px;
+  opacity: 0.8;
 }

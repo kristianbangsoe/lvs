@@ -155,15 +155,21 @@ footer{
   &:hover{
     text-decoration: none;
     color: black;
+    transform: scale(1.05);
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.21);
+
   }
   .overlay{
     padding-bottom: 10px!important;
   }
   .event-image{
     color: white;
-    .date-day {
-      font-size: 32px;
-      line-height: 23px;
+    .date-dm{
+      font-weight: 500;
+      .date-day {
+        font-size: 32px;
+        line-height: 23px;
+      }
     }
     .event-title {
         font-size: 17px;
@@ -178,13 +184,5 @@ footer{
     }
   }
 
-  &:hover .btn-green-round{
-    transform: scale(1.05);
-    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.21);
-  }
 
-}
-
-.event-item a:hover{
-  box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.11);
 }

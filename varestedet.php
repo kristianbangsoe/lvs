@@ -76,12 +76,15 @@
             Cafè Paraplyen i Odense er en af de mange cafèer, der drives af KFUM`s Sociale Arbejde i Danmark, bl.a. med støtte fra<br>
             Odense Kommune og KFUM`s Genbrugsbutik, St. Gråbrødrestræde 5, Odense.<br>
           </div>
-          <div class="text-right">
+          <div class="gradiant-read active">
+
+          </div>
+          <div class="text-center">
             <div class="read-more">LÆS MERE</div>
           </div>
         </div>
 
-        <div class="col gallery mt-4">
+        <div class="col gallery mt-5">
           <h3 class="sub-title bb mb-3 pb-2">Galleri</h3>
           <div class="d-flex">
             <a><img src="assets/images/food-1.jpg" alt=""></a>
@@ -91,7 +94,7 @@
           </div>
         </div>
 
-        <div class="col events mt-4">
+        <div class="col events mt-5">
           <h3 class="sub-title bb mb-3 pb-2">Kommende events</h3>
           <div class="d-flex row">
 
@@ -104,7 +107,7 @@
                   </div>
                 </div>
                 <div class="event-info px-3 py-4">
-                  <div class="btn-green-round mr-3">
+                  <div class="btn-green-round">
                     <i class="read-more-btn fas fa-arrow-right"></i>
                   </div>
                   <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
@@ -116,19 +119,19 @@
 
             <figure class="event-item col-6">
               <a href="#">
-                <div class="event-image" style="background-image: url('assets/images/event-1.jpg');">
+                <div class="event-image" style="background-image: url('assets/images/event-2.jpg');">
                   <div class="overlay p-3">
                     <div class="date-dm text-right"><div class="date-day">20</div>MAR</div>
-                    <h2 class="event-title">CAMPING TUR PÅ RØMØ </h2>
+                    <h2 class="event-title">GRILL AFTEN</h2>
                   </div>
                 </div>
                 <div class="event-info px-3 py-4">
-                  <div class="btn-green-round mr-3">
+                  <div class="btn-green-round">
                     <i class="read-more-btn fas fa-arrow-right"></i>
                   </div>
-                  <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
-                  <p class="colorgreentext boldtext">12 deltagere, 5 interesseret</p>
-                  <p class="location">Placering: Paraplyen, Odense C</p>
+                  <p class="date">KL. 18.00 - 27 Marts, kl.22.00</p>
+                  <p class="colorgreentext boldtext">32 deltagere, 7 interesseret</p>
+                  <p class="location">Placering: Tusind års skoven, Odense C</p>
                 </div>
               </a>
             </figure>
