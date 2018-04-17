@@ -1,78 +1,127 @@
+@media (max-width: 500px) {
+  section .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+  }
 
-section#section-1 {
-    display: flex;
-    align-items: center;
-    height: 610px;
+  section .carousel-indicators .active {
+    width: 15px !important;
+    height: 15x !important;
+  }
+}
+@keyframes handFadeUp {
+  0% {
+    background-position: 125px 500px;
+  }
+
+  100% {
+    background-position: 125px 0;
+  }
+}
+
+.greyfontfacebookmockup {color: grey;}
+
+
+// Generel kode + AnimationEnd ------------------------
+// Section 1 Hvad Landsforeningen tilbyder ------------------------
+
+#section-1 {
+  display: flex;
+  align-items: center;
+  height: 610px;
+  color: white;
+  background-size: contain;
+  background-color: #040404;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-name: handFadeUp;
+  background-repeat: no-repeat;
+  animation-timing-function: ease-out;
+  background-position: 125px 500px;
+  animation-fill-mode: forwards;
+
+  .hint {
     color: white;
-    background-size: contain;
-    background-color: #040404;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    animation-name: handFadeUp;
-    background-repeat: no-repeat;
-    animation-timing-function: ease-out;
-    background-position:125px 500px;
-    animation-fill-mode: forwards;
-    .hint{
-      color: white;
-      opacity: 0.7;
-      font-size: 13px;
-      text-decoration: none;
-      display: inline-block;
-      &:hover{
-        opacity: 1;
-      }
+    opacity: 0.7;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+      opacity: 1;
     }
-    form {
-      background-color: $dark-green;
-      padding-top: 1%;
-      border-radius: 5px;
+  }
+
+  form {
+    background-color: $dark-green;
+    padding-top: 1%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+
+    .form-group {
+      flex-grow: 1;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      padding: 20px;
       justify-content: space-between;
-      .form-group{
-        flex-grow: 1;
+      margin-bottom: 0;
+
+      .form-item {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 0;
-        .form-item {
-          display: flex;
-          flex-direction: column;
-          flex-grow: 3;
-          margin-right: 18px;
-          &::after {
-              font-family: "FontAwesome";
-              content: "\f0dd";
-              font-weight: 900;
-              position: relative;
-              color: black;
-              text-align: right;
-              margin-top: -38px;
-              margin-right: 15px;
-              pointer-events: none;
-          }
-          select {
-              height: 46px;
-              padding-left: 10px;
-              -webkit-appearance: none;
-              -webkit-border-radius: 0px;
-              border: none;
-              &:focus{
-                box-shadow: -3px 5px 20px #00000040;
-                transform: scale(1.02);
-              }
+        flex-direction: column;
+        flex-grow: 3;
+        margin-right: 18px;
+
+        &::after {
+          font-family: "FontAwesome";
+          content: "\f0dd";
+          font-weight: 900;
+          position: relative;
+          color: black;
+          text-align: right;
+          margin-top: -38px;
+          margin-right: 15px;
+          pointer-events: none;
+        }
+
+        select {
+          height: 46px;
+          padding-left: 10px;
+          -webkit-appearance: none;
+          -webkit-border-radius: 0;
+          border: none;
+
+          &:focus {
+            box-shadow: -3px 5px 20px #00000040;
+            transform: scale(1.02);
           }
         }
       }
     }
+  }
 }
 
-#categories{
-  figure{
+// Section 1 Hvad Landsforeningen tilbyder END ------------------------
+// Section 2 Events ------------------------
+#events {
+  a {
+    color: $dark-green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
+}
+// Section 2 Events END ------------------------
+
+// Section 3 Categories  ------------------------
+#categories {
+  figure {
     border: 1px solid white;
     border-radius: 20px;
     display: flex;
@@ -81,20 +130,24 @@ section#section-1 {
     align-items: center;
     margin-bottom: 30px;
     transition: 0.4s;
-    h2{
+
+    h2 {
       font-weight: bold;
       font-size: 22px;
       text-transform: uppercase;
     }
-    img{
+
+    img {
       width: 100px;
     }
-    a{
+
+    a {
       color: $dark-green;
       text-transform: uppercase;
       text-decoration: none;
     }
-    &:hover{
+
+    &:hover {
       transform: scale(1.05);
       border: 1px solid #70707021;
       box-shadow: 6px 14px 25px rgba(0, 0, 0, 0.11);
@@ -102,12 +155,220 @@ section#section-1 {
   }
 }
 
-/* The animation code */
-@keyframes handFadeUp {
-    0% {background-position:125px 500px;}
-    100% {background-position: 125px 0;}
+// Section 3 Categories END ------------------------
+
+// Section 4 Slider ------------------------
+
+#sliderheading {
+  font-size: 200%;
+}
+
+section .carousel-indicators li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+section .carousel-indicators .active {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-color: $dark-green;
+}
+
+#slider .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.2s ease-in-out left;
+  -moz-transition: 0.2s ease-in-out left;
+  -o-transition: 0.2s ease-in-out left;
+  transition: 0.2s ease-in-out left;
 }
 
 
-/* Slider */
-.carousel-indicators {background-color: $dark-green; color: $dark-green; background: $dark-green;}
+#sliderheadingexpand {color: $dark-green;
+    text-decoration: none;
+transition: font-size 0.5s;
+  }
+
+#sliderheadingexpand:hover { color: $light-green; font-size: 110%;}
+
+// Section 4 Slider END
+// Section 5 Seneste nyt ------------------------
+
+#senestenyt {
+  a {
+    color: $dark-green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
+
+  .event-image {
+    height: 218px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .event-item{ max-height: 350px;}
+}
+
+.btn-green-round-middle {
+    padding: 10px 16px;
+    width: 45px;
+    display: inline-block;
+    background-color: #00783D;
+    border-radius: 42px;
+    color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+    transition: 0.4s;
+
+}
+
+.textboks {  border-radius: 20px;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  display: block;
+  color: black;
+  text-decoration: none;
+  max-height: 370px;
+  height: 370px;
+
+  &:hover {
+    text-decoration: none;
+    color: black;
+transform: scale(1.05);
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.21);
+     transition-duration: 0.5s;
+    }
+}
+
+.containerbuttonmid {width: auto; margin-left: auto; display: flex; justify-content:
+center;}
+
+// Section 5 Seneste nyt END ------------------------
+// Section 6 Bliv medlem
+
+#blivmedlemsektion {
+  figure {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: 0.4s;
+
+    h2 {
+      font-weight: bold;
+      font-size: 22px;
+      text-transform: uppercase;
+    }
+
+    img {
+      width: 100px;
+    }
+
+    a {
+      color: $dark-green;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      border: 1px solid #70707021;
+      box-shadow: 6px 14px 25px rgba(0, 0, 0, 0.11);
+    }
+  }
+
+  .containerbuttonmid {width: auto; margin: auto; display: flex; justify-content:
+  center;}
+
+  .btn-green-round-middle {
+    padding: 10px 16px;
+    width: 45px;
+    display: inline-block;
+    background-color: #00783D;
+    border-radius: 42px;
+    color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+    transition: 0.4s;
+    margin-bottom: -50px;
+      }
+
+    .price {color: $dark-green; font-size: 200%; font-weight: bold;}
+    .dkk {color: $dark-green; font-size: 70%; font-weight: bold;}
+    .greytextsmall{ color: grey; font-size: 80%;}
+}
+
+
+// Section 6 Bliv medlem END
+// Section 7 Tilmeldingsform
+#tilmeldingnyhedsbrev {
+
+  .formcontainer {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    transition: 0.4s;
+  height:400px;}
+
+    #newsfeedbutton{
+
+      background-color: $dark-green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  border-radius: 50px;
+
+}
+
+  input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+
+.rightcontainernewsfeed {  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+
+  }
+// Section 7 Tilmeldingsform END
