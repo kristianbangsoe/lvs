@@ -7,18 +7,22 @@
   <section class="cover" style="background-image: url(assets/images/preben.jpeg);">
     <div class="overlay-dark">
       <div class="container">
-            <h2 class="m-auto text-center text-white">Ifølge Preben Brandt</h2>
+            <h2 class="wow fadeInUp m-auto text-center text-white">Ifølge Preben Brandt</h2>
       </div>
     </div>
   </section>
   <div class="container">
-    <div class="social-bar mr-auto jc-end d-flex">
-      <div class=" d-flex">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
+    <div class="row">
+      <div class="col">
+        <div class="social-bar mr-auto jc-end d-flex">
+          <div class=" d-flex">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <p class="share">Del</p>
+        </div>
       </div>
-      <p class="share">Del</p>
     </div>
   </div>
   <div class="container">
@@ -54,7 +58,7 @@
             </ul>
           </div>
           <div class="vr-item mb-4 p-4 border b-rounded">
-            <p class="sub-title pb-3 text-center">Følg os her</p>
+            <p class="sub-title text-center">Følg os her</p>
             <div class="social-bar d-flex jc-center">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
@@ -92,6 +96,11 @@
               <li>Får du ansættelse som tjenestemand med høj grad af sikkerhed i ansættelsen og en god pensionsordning.</li>
               <li>Får du hele Danmark som mulig arbejdsplads og ca. 4.400 dygtige og kompetente kollegaer.</li>
             </ul>
+            <br>
+            <h2>Udviklings- og karrieremuligheder</h2>
+              <p><img width="50%" style="float: right; padding: 0 15px;" src="assets/images/happy.png" alt="">I Kriminalforsorgen får du mange muligheder for at udvikle dig faglig og personligt og gøre karriere indenfor flere forskellige arbejds- eller fagområder. Der er blandt andet mulighed for at blive instruktør i et af de ca. 50 forskellige trænings- og behandlingsprogrammer for de indsatte, på et af de mange kurser for personalet eller på grunduddannelsen for fængselsbetjente. Testledere og bedømmere ved optagelsesprøverne er også fængselsbetjente, der er videreuddannet til netop<br>
+              de opgaver. Det er også muligt at uddanne sig til praktikvejleder og være med til at uddanne nyansatte.<br>
+              Efter nogle år i jobbet er der gode muligheder for at avancere til en lederstilling eller arbejde som konsulent indenfor områderne sikkerhed, HR og resocialisering.</p>
           </div>
         </div>
       </div>
