@@ -1,6 +1,47 @@
 
 
+$(document).ready(function () {
 
+  // Category boxex equal height
+
+  // Equal W and H on circles
+  var cw = $('figure').width();
+  $('figure').css({'height':cw+50+'px'});
+
+
+  // Read description toggle buttons
+
+  $('.read-more').on('click', function() {
+    $('.description').toggleClass('open');
+
+    if ( $( '.description' ).hasClass( 'open' ) ) {
+
+      $('.read-more').text('VIS MINDRE');
+
+    }else {
+      $('.read-more').text('LÆS MERE');
+    }
+
+  });
+
+  $(".gallery a").on('click', function() {
+    $('.overlay-dark-o').addClass("image-show");
+    $(this).addClass("show");
+    $('html').addClass("overflow-hidden");
+  });
+
+  $(".overlay-dark-o").on('click', function() {
+    $(this).removeClass("image-show");
+    $('.gallery a').removeClass("show");
+    $('html').removeClass("overflow-hidden");
+  });
+
+  $('.carousel').carousel({
+    interval: 4000
+  })
+
+
+}); 
 
 
 /* WOW ANIMATIONS */

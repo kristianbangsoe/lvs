@@ -53,6 +53,49 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.6865959960946!2d10.38555285140277!3d55.398373680364145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdff8e6292643%3A0x4d7057bb8091bdb!2sAsylgade+21%2C+5000+Odense!5e0!3m2!1sda!2sdk!4v1522966020338" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
+        <div class="row vr-items d-flex fd-col">
+          <h3 class="mt-5 sub-title bb mb-3 pb-2">Andre væresteder nær Fyn</h3>
+          <div class="vr-item mb-2 border b-rounded">
+            <a href="#" class="p-2 d-flex">
+              <div class="vr-thumb mr-2 border" style="background-image: url('assets/images/varested-1.png');"></div>
+              <div class="">
+                <p class="vr-title boldtext">Dagmarstuen</p>
+                <p class="vr-adress">Østergade 55, Odense C</p>
+                <p class="vr-opening"><i class="far fa-clock mr-1"></i>Alle dage fr kl. 18.00 - 20.00</p>
+              </div>
+            </a>
+          </div>
+          <div class="vr-item mb-2 border b-rounded">
+            <a href="#" class="p-2 d-flex">
+              <div class="vr-thumb mr-2 border" style="background-image: url('assets/images/varested-2.png');"></div>
+              <div class="">
+                <p class="vr-title boldtext">Dagmarstuen</p>
+                <p class="vr-adress">Østergade 55, Odense C</p>
+                <p class="vr-opening"><i class="far fa-clock mr-1"></i>Alle dage fr kl. 18.00 - 20.00</p>
+              </div>
+            </a>
+          </div>
+          <div class="vr-item mb-2 border b-rounded">
+            <a href="#" class="p-2 d-flex">
+              <div class="vr-thumb mr-2 border" style="background-image: url('assets/images/varested-3.png');"></div>
+              <div class="">
+                <p class="vr-title boldtext">Dagmarstuen</p>
+                <p class="vr-adress">Østergade 55, Odense C</p>
+                <p class="vr-opening"><i class="far fa-clock mr-1"></i>Alle dage fr kl. 18.00 - 20.00</p>
+              </div>
+            </a>
+          </div>
+          <div class="vr-item mb-2 border b-rounded">
+            <a href="#" class="p-2 d-flex">
+              <div class="vr-thumb mr-2 border" style="background-image: url('assets/images/varested-4.png');"></div>
+              <div class="">
+                <p class="vr-title boldtext">Dagmarstuen</p>
+                <p class="vr-adress">Østergade 55, Odense C</p>
+                <p class="vr-opening"><i class="far fa-clock mr-1"></i>Alle dage fr kl. 18.00 - 20.00</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </aside>
       <div class="description-container col-8 py-5 pl-5">
         <div class="col">
@@ -107,7 +150,7 @@
                   </div>
                 </div>
                 <div class="event-info px-3 py-4">
-                  <div class="btn-green-round">
+                  <div class="btn-green-round float-right">
                     <i class="read-more-btn fas fa-arrow-right"></i>
                   </div>
                   <p class="date">KL. 18.00 - 27 Marts, kl.10.00</p>
@@ -126,7 +169,7 @@
                   </div>
                 </div>
                 <div class="event-info px-3 py-4">
-                  <div class="btn-green-round">
+                  <div class="btn-green-round float-right">
                     <i class="read-more-btn fas fa-arrow-right"></i>
                   </div>
                   <p class="date">KL. 18.00 - 27 Marts, kl.22.00</p>
@@ -135,7 +178,6 @@
                 </div>
               </a>
             </figure>
-
           </div>
         </div>
       </div>

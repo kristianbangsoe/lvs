@@ -78,16 +78,19 @@
         z-index: 2222;
         text-align: center;
         width: 600px;
-        height: 400px;
+        height: fit-content;
         left: 50%;
         bottom: 0;
         top: 50vh;
-        transform: translate(-50%, -43%);
+        transform: translate(-50%, -50%);
         right: 0;
         transition: 0.5s;
+        box-shadow: none!important;
+
     }
 
   }
+
 }
 
 
