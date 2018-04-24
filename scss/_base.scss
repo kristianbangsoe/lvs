@@ -267,20 +267,3 @@ footer{
     }
   }
 }
-
-.light-front{
-  display: flex;
-    align-items: center;
-    background-size: cover;
-    height: 539px;
-    color: #383838;
-    background-size: contain;
-    background-color: white;
-    animation-name: inherit;
-    background-repeat: no-repeat;
-    animation-timing-function: ease-out;
-    background-position: center;
-  h1, p, .hint{
-    color: #383838!important;
-  }
-}

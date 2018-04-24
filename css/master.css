@@ -162,28 +162,30 @@ nav {
     height: 15x !important; } }
 @keyframes handFadeUp {
   0% {
-    background-position: 125px 500px; }
+    background-position: 100vw 0px; }
   100% {
-    background-position: 125px 0; } }
+    background-position: 0px 0; } }
 .greyfontfacebookmockup {
   color: grey; }
 
 #section-1 {
   display: flex;
   align-items: center;
-  height: 610px;
-  color: white;
-  background-size: contain;
-  background-color: #040404;
+  height: 556px;
+  color: #383838;
+  background-size: cover;
+  background-color: #ecedf1;
   animation-duration: 1s;
   animation-delay: 0.5s;
   animation-name: handFadeUp;
   background-repeat: no-repeat;
   animation-timing-function: ease-out;
-  background-position: 125px 500px;
+  background-position: 100vw 0px;
   animation-fill-mode: forwards; }
+  #section-1 h1, #section-1 p {
+    color: #383838; }
   #section-1 .hint {
-    color: white;
+    color: #383838;
     opacity: 0.7;
     font-size: 13px;
     text-decoration: none;
@@ -192,6 +194,7 @@ nav {
       opacity: 1; }
   #section-1 form {
     background-color: #00783D;
+    color: white;
     padding-top: 1%;
     border-radius: 5px;
     display: flex;
@@ -815,20 +818,5 @@ footer {
       background-position: center; }
   .vr-items .vr-item:hover {
     box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.21); }
-
-.light-front {
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  height: 539px;
-  color: #383838;
-  background-size: contain;
-  background-color: white;
-  animation-name: inherit;
-  background-repeat: no-repeat;
-  animation-timing-function: ease-out;
-  background-position: center; }
-  .light-front h1, .light-front p, .light-front .hint {
-    color: #383838 !important; }
 
 /*# sourceMappingURL=master.css.map */

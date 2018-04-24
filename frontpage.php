@@ -3,7 +3,7 @@
 <!-- The page content here -->
 
 
-<section id="section-1" style="background-image: url(assets/images/header.jpg);">
+<section id="section-1" style="background-image: url(assets/images/contact-cover-4.jpg);">
   <div class="container">
     <div class="row">
       <div class="col-7">
