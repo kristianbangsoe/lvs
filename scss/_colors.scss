@@ -10,8 +10,8 @@ $x2-blue: #005C60;
 //primary colors end
 
 //contrast colors
-$blackbagground: #0A0A09;
-$greybagground: #3E3E3E;
+$blackbagground: #3e3e3e;
+$greybagground: #A5A5A5;
 $whitebackground: #F5F5F5;
 $border-color: #e4e4e4;
 //contrast colors end
@@ -19,3 +19,27 @@ $border-color: #e4e4e4;
 // border-right
 
 $border: 1px solid $border-color;
+
+$boxshadow: 6px 14px 25px rgba(0, 0, 0, 0.11);
+
+
+
+.color-gray{
+	color: $greybagground!important;
+}
+
+.color-dark{
+	color: $blackbagground!important;
+}
+
+.color-green{
+	color: $dark-green!important;
+}
+
+.link{
+  color: $dark-green!important;
+  &:hover{
+    color: $dark-green!important;
+    text-decoration: none;
+  }
+}

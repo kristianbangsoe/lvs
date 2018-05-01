@@ -1,0 +1,30 @@
+{
+  "short_name": "LVS",
+  "name": "Landsforeningen Af Vaeresteder",
+  "theme_color": "#ffffff",
+  "background_color": "#00783D",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/icons/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/icons/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/icons/launcher-icon-3x.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "assets/icons/launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=launcher"
+}

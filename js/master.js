@@ -5,8 +5,8 @@ $(document).ready(function () {
   // Category boxex equal height
 
   // Equal W and H on circles
-  var cw = $('figure').width();
-  $('figure').css({'height':cw+50+'px'});
+  var cw = $('#categories figure').width();
+  $('categories figure').css({'height':cw+50+'px'});
 
 
   // Read description toggle buttons
@@ -40,8 +40,40 @@ $(document).ready(function () {
     interval: 4000
   })
 
+  //PLAY BUTTON BEHAVIOR
 
-}); 
+  //For Firefox we have to handle it in JavaScript
+  var vids = $("video");
+  $.each(vids, function(){
+         this.controls = false;
+  });
+  //Loop though all Video tags and set Controls as false
+  $(".nav-menu").click(function() {
+    $('#navbarSupportedContent').toggleClass("show");
+  });
+
+  $("video").click(function() {
+    //console.log(this);
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+    $(".play-overlay").addClass('animated fadeOut');
+    $(".player").addClass('playing');
+  });
+
+  $(".expand").click(function() {
+    $(".player").addClass('expand');
+    $('html').addClass("overflow-hidden");
+  });
+
+  $(".extract").click(function() {
+    $(".player").removeClass('expand');
+    $('html').removeClass("overflow-hidden");
+  });
+
+});
 
 
 /* WOW ANIMATIONS */
