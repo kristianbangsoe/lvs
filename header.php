@@ -9,10 +9,10 @@
     <title>LVS</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src='js/jquery.mobile-1.4.5.min.js' charset='utf-8'></script>
   </head>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <body>
   <script>
     window.fbAsyncInit = function() {
@@ -33,7 +33,6 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
     <header>
-
 <nav class="navbar navbar-expand-lg navbar-light headerbackgroundcolor">
   <div class="container">
 
@@ -51,29 +50,20 @@
           <a class="nav-link" href="about.php">Om LVS <span class="sr-only">(current)</span></a>
         </li>
 
-        <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projekter
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Projekter1</a>
-            <a class="dropdown-item" href="#">Projekter2</a>
-            <a class="dropdown-item" href="#">Projekter3</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Aktiviteter
-          </a>
+        <li class="nav-item ">
+          <a class="nav-link" href="publications.php">Publikationer</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="about.php">Om LVS <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="projects.php">Projekter</a>
         </li>
 
         <li class="nav-item ">
-          <a class="nav-link" href="#">Kontakt</a>
+          <a class="nav-link" href="activities.php">Aktiviteter</a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link" href="contact.php">Kontakt</a>
         </li>
 
 

@@ -5,14 +5,14 @@
 <!-- The page content here -->
 
 
-<section class="light hero" style="background-image: url(assets/images/about.jpg);">
+<section id="about" class="light hero" style="background-image: url(assets/images/about.jpg);">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <h1 class="pb-3 color-white wow fadeIn delay-1">Hvem er LVS for de
 					<span class="boldtext colorgreentext">socialt udsatte</span> og hvad gør vi for dem</h1>
         	<p class="wow fadeIn delay-2">Det er vores mål at skabe opmærksomhed omkring marginaliserede udsatte i Danmark. I et velhavende land som vores mener vi ikke at det burde kunne lade sig gøre nogle skal sove på gaden eller føle sigsvigtet af kommunen.</p>
-					<button type="button" class="btn-green wow fadeIn delay-3" name="button">Se hvordan <img width="15" class="play" src="assets/images/play.svg" alt=""></button>
+					<button type="button" class="play-btn btn-green wow fadeIn delay-3" name="button">Se hvordan <img width="15" class="play" src="assets/images/play.svg" alt=""></button>
 			</div>
     </div>
   </div>

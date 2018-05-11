@@ -1,5 +1,8 @@
 
-<div id="carouselExampleSlidesOnly" class="carousel slide sponsors mt-5 py-3" data-ride="carousel">
+<div id="carousel" class="carousell slide sponsors mt-5 py-3" data-ride="carousell">
+  <div class="col hide-md">
+    <h3 class="sub-title text-center white-text bb mb-3 pb-2 mt-5">Sponsoreret af</h3>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="container d-flex jc-between">
@@ -34,7 +37,7 @@
 <footer>
   <div class="container py-5" >
     <div class="row fd-row d-flex jc-between">
-      <div class="col-3">
+      <div class="col-md-3 mb-md-0 mb-5">
         <img id="logo-white" class="pb-4" src="assets/images/logo-white.svg" alt="">
         <p>Danmarksgade 6A, 1.<br>7000 Fredericia</p>
         <p>
@@ -45,7 +48,7 @@
         </p>
       </div>
 
-      <div class="col-3">
+      <div class="col-md-3 mb-md-0 mb-5">
         <h2 class="h5">Om landsforeningen</h2>
         <ul>
           <li><a href="#">Om LVS</a></li>
@@ -56,7 +59,7 @@
         </ul>
       </div>
 
-      <div class="col-3">
+      <div class="col-md-3 mb-md-0 mb-5">
         <h2 class="h5">Viden</h2>
         <ul>
           <li><a href="#">Om LVS</a></li>
@@ -67,7 +70,7 @@
         </ul>
       </div>
 
-      <div class="">
+      <div class="mobil-pay-col">
         <img id="mobil-pay" src="assets/images/mobil-pay.svg" alt="">
         <ul class="social-links mt-5">
           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -80,7 +83,7 @@
   </div>
 </footer>
 </body>
-
+<script type='text/javascript' src='js/validate.js'></script>
 <script src="js/master.js" charset="utf-8"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

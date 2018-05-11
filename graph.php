@@ -44,7 +44,7 @@ function facebookGraph($facebookName, $type, $count, $requetsFields, $buttonText
 
        if (isset($post->full_picture)) { ?>
 
-        <figure class="event-item col-4">
+        <figure class="event-item col-md-4">
           <a target="_blank" href="<?php echo $post->link;?>">
             <div class="event-image" style="background-image:url('<?php echo $post->full_picture; ?>');">
             </div>

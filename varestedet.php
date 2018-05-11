@@ -8,8 +8,8 @@
     <div class="overlay-dark">
       <div class="container">
         <div class="user row">
-          <div class="col-9 d-flex ai-center">
-            <div class="back mr-3">
+          <div class="col-md-9 d-flex ai-center">
+            <div class="back mr-3 hide-sm">
               <a href="#"><i class="fas fa-arrow-left"></i></a>
             </div>
             <div class="user-img">
@@ -17,7 +17,7 @@
             </div>
             <h1 class="ml-3 mb-0">Café Paraplyen – Odense</h1>
           </div>
-          <div class="social-bar jc-end d-flex col-3">
+          <div class="social-bar jc-end d-flex col-md-3">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
@@ -26,13 +26,17 @@
       </div>
     </div>
   </section>
+  <div class="tab-content hide-md bb">
+    <button id="contact" class="active" type="button" name="button">Kontakt information</button>
+    <button id="info" type="button" name="button">Om værestedet</button>
+  </div>
   <div class="container">
     <div class="row">
-      <aside class="col-3">
-        <div class="row pt-5 bl br bb bb-rounded">
+      <aside class="col-md-3">
+        <div class="row pt-md-5 bl br bb bb-rounded">
           <div class="">
             <div class="col">
-              <h2 class="sub-title mt-5 boldtext mb-3">Kontakt Information</h2>
+              <h2 class="sub-title mt-4 mt-md-5 boldtext mb-3">Kontakt Information</h2>
               <address class="[object Object]">
                 <p><i class="far fa-clock"></i>Alle dage fr kl. 18.00 - 20.00</p>
                 <p><i class="fas fa-tag"></i>Kategori: Café</p>
@@ -42,7 +46,7 @@
               </address>
             </div>
           </div>
-          <div class="bt col py-3 host d-flex">
+          <div class="bt col-md py-3 host d-flex">
             <img src="assets/images/jan-jensen.jpg" alt="">
             <div class="ml-3">
               <p class="boldtext mb-0">Formand</p>
@@ -97,7 +101,7 @@
           </div>
         </div>
       </aside>
-      <div class="description-container col-8 py-5 pl-5">
+      <div class="description-container col-md-8 py-md-5 py-4 pl-md-5">
         <div class="col">
           <h3 class="h3 boldtext">Værestedets beskrivelse</h3>
           <div class="description">
@@ -141,7 +145,7 @@
           <h3 class="sub-title bb mb-3 pb-2">Kommende events</h3>
           <div class="d-flex row">
 
-            <figure class="event-item col-6">
+            <figure class="event-item col-md-6">
               <a href="#">
                 <div class="event-image" style="background-image: url('assets/images/event-1.jpg');">
                   <div class="overlay p-3">
@@ -160,7 +164,7 @@
               </a>
             </figure>
 
-            <figure class="event-item col-6">
+            <figure class="event-item col-md-6">
               <a href="#">
                 <div class="event-image" style="background-image: url('assets/images/event-2.jpg');">
                   <div class="overlay p-3">

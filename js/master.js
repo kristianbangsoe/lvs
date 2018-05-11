@@ -2,12 +2,76 @@
 
 $(document).ready(function () {
 
+  // Employee filtering
+  $('.employees-filter .filter a').click(function(e) {
+    e.preventDefault();
+    var a = $(this).attr('href');
+    a = a.substr(1);
+    $('.sets .employee-item').each(function() {
+      if (!$(this).hasClass(a) && a != 'all')
+        $(this).addClass('hide');
+      else
+        $(this).removeClass('hide');
+    });
+  });
+
+
+    $( ".filter a" ).on('click', function() {
+      $(".filter a").removeClass('active');
+      $(this).addClass('active');
+    });
+
   // Category boxex equal height
-
-  // Equal W and H on circles
   var cw = $('#categories figure').width();
-  $('categories figure').css({'height':cw+50+'px'});
+  $('#categories figure').css({'height':cw +'px'});
 
+  $( ".submit" ).on('click', function() {
+    $('#mce-success-response').html('Du er nu tilmeld vores nyhedsbrev');
+  });
+
+  $( "#contact" ).on('click', function() {
+    $(this).addClass("active");
+    $("aside").show();
+    $("#info").removeClass("active");
+    $(".description-container").hide();
+  });
+
+  $( "#info" ).on('click', function() {
+    $(this).addClass("active");
+    $(".description-container").show();
+    $("#contact").removeClass("active");
+    $("aside").hide();
+  });
+
+  /**
+      To customize your embedded form validation messages, place this code before the closing script tag.
+   */
+  $mcj.extend($mcj.validator.messages, {
+      required: "Dette felt skal udfyldes.",
+      remote: "Ret dette felt.",
+      email: "Skriv en gyldig email adresse",
+  });
+  // Add mobile js functionality if screen is less than 991px in width
+  if ( $(window).width() < 991) {
+    $(function(){
+      // Bind the swipeleftHandler callback function to the swipe event on div.box
+      $( "#carouselExampleIndicators" ).on( "swipeleft", function swipeleftHandler( event )
+        {
+          $(this).carousel('next');
+        }
+      );
+
+      $( "#carouselExampleIndicators" ).on( "swiperight", function swipeleftHandler( event )
+        {
+          $(this).carousel('prev');
+        }
+      );
+
+      // Callback function references the event target and adds the 'swipeleft' class to it
+
+    });
+
+  }
 
   // Read description toggle buttons
 
@@ -50,6 +114,25 @@ $(document).ready(function () {
   //Loop though all Video tags and set Controls as false
   $(".nav-menu").click(function() {
     $('#navbarSupportedContent').toggleClass("show");
+    if ($('#navbarSupportedContent').hasClass("show")) {
+      $(this).css('transform', 'rotate(90deg)');
+      $('html').addClass("overflow-hidden");
+    }else {
+      $(this).css('transform', 'rotate(0deg)');
+      $('html').removeClass("overflow-hidden");
+    }
+  });
+
+  // VIDEO PLAYER
+
+  $(".play-btn").click(function() {
+
+      $("video").get(0).play();
+      $(".play-overlay").addClass('animated fadeOut');
+      $(".player").addClass('playing');
+      $(".player").addClass('expand');
+      $('html').addClass("overflow-hidden");
+
   });
 
   $("video").click(function() {
@@ -68,15 +151,33 @@ $(document).ready(function () {
     $('html').addClass("overflow-hidden");
   });
 
-  $(".extract").click(function() {
+  $(".extract, .extract-container").click(function() {
     $(".player").removeClass('expand');
     $('html').removeClass("overflow-hidden");
   });
 
 });
 
+/* Jump Down logo */
 
-/* WOW ANIMATIONS */
+$(function(){
+ var shrinkHeader = 120;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('.navbar').addClass('fixed');
+        }
+        else {
+            $('.navbar').removeClass('fixed');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+    }
+});
+
+
+/* LOAD IN VIEW ANIMATIONS */
        (function() {
 var Util,
 __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
@@ -270,3 +371,8 @@ offset: 100
 }
 );
 wow.init();
+
+
+// Mailchimp handelbars
+
+(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);

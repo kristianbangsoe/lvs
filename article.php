@@ -26,10 +26,10 @@
     </div>
   </div>
   <div class="container">
-    <div class="row">
-      <aside class="col-3 pr-5 br">
+    <div class="row article-container">
+      <aside class="col-md-3 pr-md-5 br">
         <div class="row mt-3 vr-items d-flex fd-col">
-          <div class=" mr-3 my-3">
+          <div class="hide-sm mr-3 my-3">
             <a href="#" class="go-back">
               <div class="btn-green-round mr-3">
                 <i class="fas fa-arrow-left"></i>
@@ -38,7 +38,7 @@
             </a>
           </div>
           <div class="vr-item mb-4 p-4 border b-rounded">
-            <p class="sub-title">Relaterede artikler</p>
+            <p class="sub-title">Læs også</p>
             <ul class="pl-0">
               <li><a href="#">Er civiliseret sammenfund</a></li>
               <li><a href="#">Vendepunktet</a></li>
@@ -67,7 +67,7 @@
           </div>
         </div>
       </aside>
-      <div class="description-container col-8 pb-5 pl-3">
+      <div class="description-container col-md-8 pb-5 mt-md-0 mt-3 pl-md-3">
         <div class=" col bread-crumb my-4">
           <span><a href="#">Hjem</a></span><span><a href="#">Udgivelser</a></span><span class="active"><a href="#">Ifølge Preben brandt</a></span>
         </div>
