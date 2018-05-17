@@ -13,14 +13,14 @@ $x2-blue: #005C60;
 $blackbagground: #3e3e3e;
 $greybagground: #A5A5A5;
 $whitebackground: #F5F5F5;
-$border-color: #e4e4e4;
+$border-color: rgba(0,0,0,0.07);
 //contrast colors end
 
 // border-right
 
 $border: 1px solid $border-color;
 
-$boxshadow: 6px 11px 24px rgba(0, 0, 0, 0.11);
+$boxshadow: 0 1.25rem 3.125rem 0 rgba(7, 24, 51, 0.1);
 
 
 

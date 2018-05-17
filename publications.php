@@ -48,16 +48,20 @@
 			</div>
 			<hr>
 			<div class="row mt-4">
-				<div class="col-md-3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
 					<a target="_blank" href="assets/Akut+Krisecenter+for+livstruede+stofmisbrugere_web.pdf" download="proposed_file_name">
 						<figure class="pub-item">
 								<div class="pub-image" style="background-image: url('assets/images/publications/pub-1.jpg');">
+									<p class="desc">
+										I Den Gode Historie kan du læse 10 historier om mennesker, der har mødt forandringer i livet.<br>
+										Du kan bl.a. læse om Claus, der har kvittet stoffer efter 29 års misbrug. Du kan læse om Søren, der også er blevet sit misbrug kvit, og som i dag selv forsøger sig og sin lille familie. Og du kan læse om Kim, der efter mange års misbrug nu er blevet clean og er ved at uddanne sig til pædagog.
+									</p>
 								</div>
 								<div class="pub-info px-3 py-3">
-									<div class="btn-green-round float-right">
+									<div title="Hent publikation" class="btn-green-round float-right">
 										<i class="read-more-btn fas fa-arrow-down"></i>
 									</div>
-									<p class="boldtext">Den Gode Historie</p>
+									<p class="elipsis boldtext">Den Gode Historie</p>
 									<p class="color-gray">22 Sider   |   5MB   |  4 Marts, 2018</p>
 									<p class="boldtext color-green">Misbrug, Afhængihed</p>
 								</div>
@@ -65,16 +69,19 @@
 					</a>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
 					<a target="_blank" href="assets/Akut+Krisecenter+for+livstruede+stofmisbrugere_web.pdf" download="proposed_file_name">
 						<figure class="pub-item">
 								<div class="pub-image" style="background-image: url('assets/images/publications/pub-2.jpg');">
+									<p class="desc">
+										Landsforeningen af VæreSteders årsrapport for udsatteområdet ser i år ikke blot tilbage på det forgangne år, men tegner et billede af området over de seneste 10-15 år. I rapporten fremlægges udviklinger, der tilsammen peger på et socialområde, hvor indsatserne i stigende grad orienterer sig mod skadesreduktion frem for varige og reelle forandringer for socialt udsatte.
+									</p>
 								</div>
 								<div class="pub-info px-3 py-3">
-									<div class="btn-green-round float-right">
+									<div title="Hent publikation" class="btn-green-round float-right">
 										<i class="read-more-btn fas fa-arrow-down"></i>
 									</div>
-									<p class="boldtext">Den Gode Historie</p>
+									<p class="elipsis boldtext">Årsrapport for udsatteområdet 2015</p>
 									<p class="color-gray">22 Sider   |   5MB   |  4 Marts, 2018</p>
 									<p class="boldtext color-green">Misbrug, Afhængihed</p>
 								</div>
@@ -82,16 +89,16 @@
 					</a>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
 					<a target="_blank" href="assets/Akut+Krisecenter+for+livstruede+stofmisbrugere_web.pdf" download="proposed_file_name">
 						<figure class="pub-item">
 								<div class="pub-image" style="background-image: url('assets/images/publications/pub-3.png');">
 								</div>
 								<div class="pub-info px-3 py-3">
-									<div class="btn-green-round float-right">
+									<div title="Hent publikation" class="btn-green-round float-right">
 										<i class="read-more-btn fas fa-arrow-down"></i>
 									</div>
-									<p class="boldtext">Den Gode Historie</p>
+									<p class="elipsis boldtext">Den Gode Historie</p>
 									<p class="color-gray">22 Sider   |   5MB   |  4 Marts, 2018</p>
 									<p class="boldtext color-green">Misbrug, Afhængihed</p>
 								</div>
@@ -99,16 +106,16 @@
 					</a>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
 					<a target="_blank" href="assets/Akut+Krisecenter+for+livstruede+stofmisbrugere_web.pdf" download="proposed_file_name">
 						<figure class="pub-item">
 								<div class="pub-image" style="background-image: url('assets/images/publications/pub-4.png');">
 								</div>
 								<div class="pub-info px-3 py-3">
-									<div class="btn-green-round float-right">
+									<div title="Hent publikation" class="btn-green-round float-right">
 										<i class="read-more-btn fas fa-arrow-down"></i>
 									</div>
-									<p class="boldtext">Den Gode Historie</p>
+									<p class="elipsis boldtext">Den Gode Historie</p>
 									<p class="color-gray">22 Sider   |   5MB   |  4 Marts, 2018</p>
 									<p class="boldtext color-green">Misbrug, Afhængihed</p>
 								</div>

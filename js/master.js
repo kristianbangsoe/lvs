@@ -53,6 +53,8 @@ $(document).ready(function () {
   });
   // Add mobile js functionality if screen is less than 991px in width
   if ( $(window).width() < 991) {
+
+
     $(function(){
       // Bind the swipeleftHandler callback function to the swipe event on div.box
       $( "#carouselExampleIndicators" ).on( "swipeleft", function swipeleftHandler( event )
@@ -71,6 +73,28 @@ $(document).ready(function () {
 
     });
 
+  }else {
+    // Detect scroll direction
+
+    $('document').ready(function() {
+    var lastScrollTop = 0;
+    $(window).scroll(function(event){
+       var st = $(this).scrollTop();
+       if (st > lastScrollTop && st > 200){
+           console.log(st)
+              $('nav').css({'transform':'translateY(-100%)'});
+       }
+       else if(st == lastScrollTop)
+       {
+         //do nothing
+         //In IE this is an important condition because there seems to be some instances where the last scrollTop is equal to the new one
+       }
+       else {
+          console.log("up")
+          $('nav').css({'transform':'translateY(0%)'});
+       }
+       lastScrollTop = st;
+    });});
   }
 
   // Read description toggle buttons

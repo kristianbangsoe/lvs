@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-        <h1 class="pb-3 wow fadeIn delay-1">Over <span class="boldtext colorgreentext"> 130 væresteder</span> dedikeret til de socialt udsatte i Danmark</h1>
+        <h1 class="pb-3 wow fadeIn delay-1">Over <strong> 130 væresteder</strong> dedikeret til de socialt udsatte i Danmark</h1>
         <p class="hide-sm wow fadeIn delay-2">Landsforeningen af VæreSteder samler alle væresteder i danmark, til socialt udsatte der mangler hjælp. Du vil kunne finde kontakt information, event kalendre og meget mere for de forskellige væresteder. </p>
         <a class="hide-md btn-green" href="/vaeresteder">Find et Værested</a>
         <form class="hide-sm wow fadeIn delay-3" action="index.html" method="post">

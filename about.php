@@ -40,7 +40,7 @@
 						<img src="assets/images/collapse.svg" class="extract" width="25" alt="Luk">
 					</div>
 					<video width="100%" controls poster="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX26944459.jpg">
-					  <source src="https://d2gg9evh47fn9z.cloudfront.net/COLOURBOX26944459.mp4" type="video/ogg">
+					  <source src="blob:https://www.facebook.com/e243ab4c-1a6f-49a6-af1c-8c118627c09a" type="video/ogg">
 					  Your browser does not support the video tag.
 					</video>
 				</div>

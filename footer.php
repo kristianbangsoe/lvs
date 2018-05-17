@@ -1,5 +1,5 @@
 
-<div id="carousel" class="carousell slide sponsors mt-5 py-3" data-ride="carousell">
+<div id="carousel" class="carousel slide sponsors mt-5 py-3" data-ride="carousel">
   <div class="col hide-md">
     <h3 class="sub-title text-center white-text bb mb-3 pb-2 mt-5">Sponsoreret af</h3>
   </div>
