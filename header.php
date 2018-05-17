@@ -5,11 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" intitial-scale="1" maximum-scale="1">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="manifest" href="manifest.json">
     <title>LVS</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/animate.css">
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src='js/jquery.mobile-1.4.5.min.js' charset='utf-8'></script>
   </head>

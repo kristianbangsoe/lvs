@@ -222,7 +222,7 @@
         <div class="t-item p-3 m-auto col-md-5 d-flex">
           <img class="mr-4" src="assets/images/review-1.jpg" alt="">
           <div class="t-content">
-            <p class="boldtext color-green">KRONPRINSESSE MARY</p>
+            <p class="boldtext color-green mb-0 mt-2">KRONPRINSESSE MARY</p>
             <p>Landsforeningen af Væresteder har gjordt et henrivende stykke arbejde og har hjulpet vor  Danske udsatte igennem storm og vind.</p>
           </div>
         </div>
@@ -232,7 +232,7 @@
         <div class="t-item p-3 m-auto col-md-5 d-flex">
           <img class="mr-4" src="assets/images/review-2.jpg" alt="">
           <div class="t-content">
-            <p class="boldtext uppercase color-green">JACOB HAUGAARD</p>
+            <p class="boldtext uppercase color-green mb-0 mt-2">JACOB HAUGAARD</p>
             <p>Det er fantastisk at se nogle der kæmper så meget for hinanden. Jeg ved hvor hård det kan være at stå alene i situationer som denne – Tak LVS!</p>
           </div>
         </div>
